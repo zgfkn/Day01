@@ -9,6 +9,7 @@ public class VarDemo {
          * 可以有数字,但数字不能开头
          * 不能有关键字
          * 不能有除_和$的特殊符号
+         * 大小写敏感
          */
         int v1=10;//声明一个int变量 变量名是v1 初始值=10
         System.out.println("v1="+v1);
