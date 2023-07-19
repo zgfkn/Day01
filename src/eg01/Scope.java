@@ -27,7 +27,7 @@ public class Scope {
         System.out.println("double数据类型最大数值和最小值:"+dMax+","+dMain);
         //char类型
         char c1='a';
-        char c2=127;
+        char c2=127;//0~127ASCII码,128~65535空格处理
         char c3='中';
         System.out.println(c1+","+c2+","+c3);
     }
