@@ -25,5 +25,10 @@ public class Scope {
         double dMax=Double.MAX_VALUE;
         double dMain=Double.MIN_VALUE;
         System.out.println("double数据类型最大数值和最小值:"+dMax+","+dMain);
+        //char类型
+        char c1='a';
+        char c2=127;
+        char c3='中';
+        System.out.println(c1+","+c2+","+c3);
     }
 }
